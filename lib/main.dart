@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
-import 'package:personal_expenses_app/widgets/transaction_list.dart';
 
 import 'models/transcation.dart';
 
@@ -49,7 +48,6 @@ class MyHomePage extends StatelessWidget {
                 elevation: 5,
               ),
             ),
-            TransactionList(),
           ],
         ),
       ),
