@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'transcation.dart';
+import 'models/transcation.dart';
 
 void main() {
   runApp(MyApp());
