@@ -33,6 +33,9 @@ class _UserTransactionState extends State<UserTransaction> {
       date: DateTime.now(),
       id: DateTime.now().toString(),
     );
+    setState(() {
+      _userTransactions.add(newTx);
+    });
   }
 
   @override
